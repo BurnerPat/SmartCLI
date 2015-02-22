@@ -63,10 +63,10 @@ After declaring the arguments class, you can simply let SmartCLI do all the magi
 ```java
 public static void main(String[] args) {
     // Declare and initialize the SmartCLI object using defaults.
-    SmartCLI<ParserArguments> cli = new SmartCLI<ParserArguments>(ParserArguments.class);
+    SmartCLI<MyArguments> cli = new SmartCLI<MyArguments>(MyArguments.class);
     
     // Declare and initialize the arguments object.
-    ParserArguments obj = new ParserArguments();
+    MyArguments obj = new MyArguments();
 
     try {
         // Parse the args array and put the values into our arguments object.
