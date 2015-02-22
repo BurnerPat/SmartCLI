@@ -1,0 +1,6 @@
+# IntelliJ IDEA files
+*.iml
+
+# IntelliJ IDEA folders
+.idea/
+out/
